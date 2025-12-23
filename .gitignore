@@ -1,0 +1,10 @@
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+
+# Environment
+venv/
+__pycache__/
+
+# Notebooks
+.ipynb_checkpoints/
