@@ -1,10 +1,17 @@
-# Data files
-data/raw/*.csv
-data/processed/*.csv
+# Data (ignore actual files, keep instructions)
+data/raw/*
+data/processed/*
+!data/raw/README.md
+!data/processed/README.md
 
-# Environment
+# Python
 venv/
 __pycache__/
+*.pyc
 
 # Notebooks
 .ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
