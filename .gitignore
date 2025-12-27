@@ -1,8 +1,10 @@
-# Data (ignore actual files, keep instructions)
+# Raw data
 data/raw/*
-data/processed/*
 !data/raw/README.md
-!data/processed/README.md
+
+# Processed data (large files excluded)
+processed/*
+!processed/README.md
 
 # Python
 venv/
@@ -11,6 +13,10 @@ __pycache__/
 
 # Notebooks
 .ipynb_checkpoints/
+
+# Environment & logs
+.env
+*.log
 
 # OS
 .DS_Store
