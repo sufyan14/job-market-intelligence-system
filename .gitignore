@@ -21,3 +21,7 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Large feature matrices
+*tfidf_matrix*.pkl
+X_tfidf_*.pkl
