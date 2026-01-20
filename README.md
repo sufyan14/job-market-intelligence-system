@@ -1,4 +1,4 @@
-# Job Market Intelligence System
+# AI / Data Science Job Market Intelligence System
 
 ## Overview
 A data-driven system that analyzes job postings to identify in-demand skills,
