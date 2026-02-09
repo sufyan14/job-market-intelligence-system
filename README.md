@@ -149,11 +149,34 @@ All results can be reproduced by running the notebooks sequentially.
 
 ---
 
+## Dashboard Summary
+
+### Page 1 — Job Market Distribution
+Overall distribution of jobs, experience levels, and salary ranges to establish baseline market structure.
+
+<img width="1326" height="769" alt="{F0D54DC1-E955-40DC-9A7C-63885DAEDA05}" src="https://github.com/user-attachments/assets/afcb7892-b9b6-4885-9454-502f152df7aa" />
+
+---
+
+### Page 2 — Skill Demand
+Most in-demand skills and how skill frequency varies across experience levels.
+
+<img width="1329" height="769" alt="{B6154CA3-A4FB-4E06-8F0A-B234F789555D}" src="https://github.com/user-attachments/assets/1e0696ae-f9e0-44dd-b14f-3fe01f34e988" />
+
+---
+
+### Page 3 — Skill Pair Analysis
+Commonly co-occurring skill pairs and their relationship with salary, highlighting the impact of skill combinations.
+
+<img width="1327" height="771" alt="{3D00176F-43E4-4574-BB73-4B26CA853C95}" src="https://github.com/user-attachments/assets/aeba1839-9071-45b1-b2cd-c21109d7d242" />
+
+
 ## Tech Stack
 
 * Python
 * Pandas, NumPy
 * Scikit-learn
+* MS Excel
 * spaCy (NLP)
 * Matplotlib / Seaborn
 * SQL
@@ -161,9 +184,30 @@ All results can be reproduced by running the notebooks sequentially.
 
 ---
 
-## Project Status
+## Conclusion
 
-Core analysis is complete.
-This project is under active development.
+This project demonstrates an end-to-end **job market intelligence system**, transforming unstructured job postings into actionable insights around skills, salaries, role archetypes, and career transitions.
+
+The analysis provides:
+- Clear visibility into **in-demand skills**
+- Interpretable **role archetypes**
+- Data-backed **career progression and transition paths**
+
+All insights are reproducible, modular, and designed to support real-world career decision-making.
 
 ---
+
+## Future Work
+
+Potential extensions include:
+- Interactive dashboards for personalized career recommendations
+- Skill-to-role matching for individual profiles
+- Time-series analysis to track evolving skill demand
+- Deployment as a lightweight web application or API
+
+---
+
+## Notes
+
+This project was built with a strong focus on **clarity, reproducibility, and real-world relevance**, and serves as a foundation for more advanced career intelligence systems.
+
